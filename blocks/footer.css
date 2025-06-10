@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 120px 0 0;
+}
+.footer__copyright {
+  text-align: center;
+}

@@ -1,6 +1,39 @@
 .main {
   display: flex;
   flex-direction: column;
-  max-width: 830px;
+  max-width: 990px;
   margin: auto;
+}
+.main__title {
+  max-width: 830px;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 54px;
+  line-height: 1.1;
+}
+.main__paragraph {
+  max-width: 730px;
+  font-size: 24px;
+  line-height: 1.1;
+}
+.main__paragraph_quote-text_left {
+  text-align: left;
+  max-width: 725px;
+  max-height: 135.66px;
+  margin: 10px 0 0;
+  padding: 0;
+}
+.main__paragraph_quote-name_right {
+  text-align: right;
+  margin: 25px 0 0;
+  padding: 0;
+  position: relative;
+  right: 6px;
+  bottom: 10px;
+}
+
+.main__paragraph_quote-small_s {
+  max-width: 701px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
 }
