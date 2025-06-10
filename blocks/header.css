@@ -6,15 +6,27 @@
 .header__logo {
   max-width: 254px;
   height: 68.94px;
+  margin-top: 10px;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+}
+.header__content-image {
+  margin: auto;
 }
 .header__title {
   text-align: center;
+  margin: 50px auto;
   font-size: 96px;
+  font-family: "Inter-Black", sans-serif;
   max-width: 720px;
   max-height: 200px;
 }
 .header__subtitle {
   text-align: center;
+  margin: auto auto 30px auto;
+  font-family: "Inter-Regular", sans-serif;
   font-size: 30px;
   max-width: 720px;
   height: 72px;
