@@ -12,14 +12,6 @@
   display: flex;
   flex-direction: column;
 }
-.header__content-image {
-  margin: auto;
-}
-.header__image{
-  width: 100%;
-  height: 615px;
-  
-}
 .header__title {
   text-align: center;
   margin: 50px auto;
@@ -35,4 +27,13 @@
   font-size: 30px;
   max-width: 720px;
   height: 72px;
+}
+
+.header__content-image {
+  max-width: 990px;
+  margin: auto;
+}
+.header__image {
+  width: 100%;
+  padding-bottom: 0;
 }
