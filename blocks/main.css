@@ -24,15 +24,15 @@
 }
 .main__paragraph_quote-name_right {
   text-align: right;
-  margin: 25px 0 0;
-  padding: 0;
+  margin: 25px 0px 0;
+  padding-right: 80px;
   position: relative;
-  right: 6px;
+  right: 70px;
   bottom: 10px;
 }
 
 .main__paragraph_quote-small_s {
-  max-width: 701px;
+  max-width: 680px;
   text-align: left;
   font-size: 16px;
   line-height: 1.6;
