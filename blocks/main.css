@@ -58,12 +58,12 @@
     max-width: 288px;
     padding: 0;
     font-size: 24px;
-    text-align: right;
   }
   .main__paragraph_quote-small_s {
     max-width: 288px;
     font-size: 16px;
     padding: 0;
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 545px) and (max-width: 1024px) {
