@@ -46,22 +46,24 @@
     font-size: 32px;
     line-height: 1;
   }
-  .main__paragraph{
+  .main__paragraph {
     max-width: 288px;
-
+    margin: 0;
   }
-  .main__paragraph_quote-name_right{
+  .main__paragraph_quote-text_left {
+    max-width: 288px;
+    margin: 0 0 120px;
+  }
+  .main__paragraph_quote-name_right {
     max-width: 288px;
     padding: 0;
     font-size: 24px;
-
+    text-align: right;
   }
-  .main__paragraph_quote-small_s{
+  .main__paragraph_quote-small_s {
     max-width: 288px;
     font-size: 16px;
     padding: 0;
-
-
   }
 }
 @media screen and (min-width: 545px) and (max-width: 1024px) {
