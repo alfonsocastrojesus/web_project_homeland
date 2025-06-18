@@ -1,0 +1,71 @@
+.places {
+  max-width: 990px;
+  margin: auto;
+}
+.places__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.places__item-title {
+  grid-column: 1;
+  font-size: 72px;
+  font-family: "Inter-Black";
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+.places__item-image {
+  grid-column: 1;
+}
+
+.places__item-nft {
+  text-decoration: none;
+  text-align: center;
+  grid-column: 1 / 2;
+  font-family: "Inter-Regular";
+  max-width: 250px;
+  min-height: 35%;
+  padding-top: 2.5%;
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  border-radius: 4px;
+  margin-top: 10%;
+  color: #fff;
+  border-radius: 4px;
+}
+.places__item-nft:hover {
+  background: #003a7b;
+}
+
+.places__item-artist {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 30%;
+}
+.places__item-author {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  grid-column: 2;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 35%;
+}
+.places__item-pharagraph {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+}
+.places__item-pharagraphs {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+}
+.places__item-pharagraphs-burundi {
+  margin-top: 0;
+  margin-bottom: 7px;
+}
