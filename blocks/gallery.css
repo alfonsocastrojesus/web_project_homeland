@@ -4,7 +4,7 @@
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(2, 213px);
   gap: 16px;
-  margin: 15px auto 15px auto;
+  margin: 50px auto auto auto;
 }
 .gallery__photo {
   width: 100%;
