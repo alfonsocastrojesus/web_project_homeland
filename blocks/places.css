@@ -1,21 +1,47 @@
 .places {
+  max-width: 990px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.places__items {
   display: grid;
   grid-template-columns: repeat(2, 493px);
-  grid-template-rows: auto;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
     "title artist"
     "image author"
     "button text";
+  gap: 10px;
 }
 .places__item-title {
   grid-area: title;
+  font-size: 72px;
+  font-family: "Inter", sans-serif;
 }
-.places__item-image {
+.places__item-image:hover {
   grid-area: image;
+  opacity: 0.5;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 .places__item-button {
   grid-area: button;
+  background: linear-gradient(
+    90deg,
+    rgb(2, 120, 254) 0%,
+    rgb(0, 58, 123) 99.98%
+  );
+  max-width: 240px;
+  max-height: 40px;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
 }
+.places__item-button:hover {
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
+}
+
 .places__item-artist {
   grid-area: artist;
 }
