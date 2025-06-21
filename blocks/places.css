@@ -38,12 +38,12 @@
   text-align: center;
   line-height: 100%;
   padding: 2.5%;
-
   background: linear-gradient(
     90deg,
     rgb(2, 120, 254) 0%,
     rgb(0, 58, 123) 99.98%
   );
+  box-shadow: 5px 5px 10px #00000040;
   max-width: 240px;
   max-height: 40px;
   color: #fff;
@@ -53,6 +53,7 @@
 .places__item-button:hover {
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
+
 .places__item-artist-author {
   grid-area: artist-author;
   display: flex;
