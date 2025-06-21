@@ -22,7 +22,7 @@
   max-width: 460px;
   font-family: "Inter-Black", sans-serif;
   line-height: 105%;
-  font-weight: 900px;
+  font-weight: 900;
   color: #ffffff;
 }
 .places__item-image:hover {
